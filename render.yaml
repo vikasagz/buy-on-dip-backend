@@ -1,0 +1,8 @@
+
+services:
+  - type: web
+    name: buy-on-dip-api
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python app.py"
